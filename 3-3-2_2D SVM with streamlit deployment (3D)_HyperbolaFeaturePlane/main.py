@@ -1,5 +1,5 @@
 #run with command below: 
-#streamlit run "d:/vs code/AIoT_Project/SupportVectorMachine/3-3-2_2D SVM with streamlit deployment (3D)_HyperbolaFeaturePlane/main.py"
+#streamlit run "file_path"
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
