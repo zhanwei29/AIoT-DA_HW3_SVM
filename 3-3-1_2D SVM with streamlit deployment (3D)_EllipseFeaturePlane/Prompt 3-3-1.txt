@@ -1,0 +1,5 @@
+following the second question, here is my third question 
+do the same as second question but change the dataset distributed on the feature plane with a non-circle shapes, i.e. oral shape or which shape you suggest.
+------------------
+i want the version that has the sliders、text columns and the reset button
+------------------

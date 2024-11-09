@@ -1,0 +1,3 @@
+which is more suitable for this problem,hyperbola or parabola
+-------------------
+give me the complete code with sliders /text columns/reset button of the hyperbola version 
