@@ -1,0 +1,13 @@
+I want to do the following linear separation problems in Python by using logistic regression and support vector machine(SVM), separately.
+The first question is "1D boundary compare to  logistic regression with SVM on simple case", and here are the constraints:
+1.Generate 300 random variables X(i) with values ranging from 0 to 1000.
+2.Determine Y(i) by the rules: Y(i) = 1  if 500< X(i) <800；Y(i) = 0 , otherwise.
+3.Write logistic regression and output the predict result as Y1 ； the output of SVM predict result as Y2.
+4.Draw X,Y and  X, Y1 in one figure, draw X,Y and X,Y2 in another figure.
+5.Adding the decision hyperplane for each algorithm.
+----------
+for the SVM, use rbf kernel to process its non-linear problem
+----------
+give me complete Python code, following the CRISP-DM steps
+----------
+remove the figure of SVM with linear kernel result
