@@ -37,10 +37,10 @@ if st.button("Reset"):
     st.session_state.sigma = DEFAULT_SIGMA
 
 # Sliders
-distance_threshold_slider = st.slider("Distance Threshold", 0.1, 10.0, st.session_state.distance_threshold, key="distance_threshold")
+distance_threshold_slider = st.slider("Distance Threshold", 1.95, 15.0, st.session_state.distance_threshold, key="distance_threshold")
 semi_major_axis_slider = st.slider("Semi-Major Axis for Gaussian Function", 0.1, 10.0, st.session_state.semi_major_axis, key="semi_major_axis")
 semi_minor_axis_slider = st.slider("Semi-Minor Axis for Gaussian Function", 0.1, 10.0, st.session_state.semi_minor_axis, key="semi_minor_axis")
-sigma_slider = st.slider("Sigma for Gaussian Spread", 1.0, 20.0, st.session_state.sigma, key="sigma")
+sigma_slider = st.slider("Sigma for Gaussian Spread", 1.0, 15.0, st.session_state.sigma, key="sigma")
 
 # Text inputs for precise control
 def get_float_input(label, default_value, key):
