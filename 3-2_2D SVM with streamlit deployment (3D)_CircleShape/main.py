@@ -43,10 +43,10 @@ if st.button("Reset"):
     st.session_state.sigma = DEFAULT_SIGMA
 
 # Adjustable parameters using sliders
-distance_threshold = st.slider("Distance Threshold", 0.1, 10.0, st.session_state.distance_threshold, key="distance_threshold")
+distance_threshold = st.slider("Distance Threshold", 0.1, 5.0, st.session_state.distance_threshold, key="distance_threshold")
 semi_major_axis = st.slider("Semi-Major Axis for Gaussian Function", 0.1, 10.0, st.session_state.semi_major_axis, key="semi_major_axis")
 semi_minor_axis = st.slider("Semi-Minor Axis for Gaussian Function", 0.1, 10.0, st.session_state.semi_minor_axis, key="semi_minor_axis")
-sigma = st.slider("Sigma for Gaussian Spread", 1.0, 20.0, st.session_state.sigma, key="sigma")
+sigma = st.slider("Sigma for Gaussian Spread", 1.0, 15.0, st.session_state.sigma, key="sigma")
 
 # The rest of the code for data generation, plotting, etc., follows here...
 # Step 1: Generate first cluster centered at (0,0) with variance 10
